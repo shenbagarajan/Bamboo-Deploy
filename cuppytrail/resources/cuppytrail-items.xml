@@ -46,6 +46,27 @@
 				</attribute>
 			</attributes>
 		</itemtype>
+		<!-- To check if bamboo deployment is working. -->
+		<itemtype code="Student" generate="true" autocreate="true">
+			<deployment table="CuppyTrailStudent" typecode="10124" />
+			<attributes>
+				<attribute qualifier="name" type="java.lang.String">
+					<persistence type="property" />
+					<modifiers optional="false" unique="true" />
+				</attribute>
+			</attributes>
+		</itemtype>
+		
+		<!-- To check if bamboo deployment is working. -->
+	<itemtype code="Sample" generate="true" autocreate="true">
+			<deployment table="CuppyTrailSample" typecode="10126" />
+			<attributes>
+				<attribute qualifier="name" type="java.lang.String">
+					<persistence type="property" />
+					<modifiers optional="false" unique="true" />
+				</attribute>
+			</attributes>
+		</itemtype>
 
 	</itemtypes>
 
